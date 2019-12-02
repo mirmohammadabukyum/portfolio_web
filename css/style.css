@@ -21,8 +21,8 @@ h1 span{
 header{
 	background-image: url(../images/banner.png);
 	background-repeat: no-repeat;
-	background-size: cover;
-	/*min-height: 100vh;*/
+	/*background-size: cover;*/
+	background-size: 100% 100%;
 	position: relative;
 }
 header .row{
@@ -370,7 +370,7 @@ footer{
 }
 footer .row{
 	text-align: center;
-	/*padding: 17px 0;*/
+	padding: 17px 0;
 	align-items: center;
 	min-height: 100px;
 	
@@ -385,4 +385,19 @@ footer h4{
 .works-section .btn-custom{
 	border-bottom-left-radius:0;
 	border-bottom-right-radius: 30px;
+}
+
+.navbar-light .navbar-toggler{
+	color: #fff;
+	border-color: #40afcc;
+	border-radius: 0;
+	transition: all 0.4s ease-in-out;
+}
+.navbar-light .navbar-toggler:hover{
+	background-color: #40afcc;
+	color: #fff;
+}
+
+.navbar-toggler span{
+	
 }
