@@ -1,0 +1,226 @@
+@media (max-width: 1199px) {
+	.banner-content h2 {
+    font-size: 55px;
+}
+.banner-content p {
+    font-size: 18px;
+}
+.btn-custom, .btn-custom-reverse {
+    font-size: 17px;
+}
+/*header .row{
+	min-height: 70vh;
+}*/
+.hvr a {
+    font-size: 16px;
+}
+.skills-section {
+    padding-bottom: 0;
+}
+.resume-section{
+	padding-bottom: 0;
+}
+.resume-box .resume p {
+    width: 320px;
+}
+.works-list li .btn {
+	font-size: 16px;
+    padding: 12px 15px;
+}
+.social a ul li i {
+    font-size: 75px;
+}
+.social a ul li span {
+    font-size: 30px;
+}
+.social a ul li span {
+    font-size: 25px;
+}
+}
+@media (max-width: 991px) {
+	.navbar-nav {
+    -ms-flex-direction: row;
+    flex-direction: row;
+    justify-content: center;
+}
+.navbar-light .navbar-nav .nav-link {
+    padding: 15px 30px;
+}
+.heading h1 {
+    font-size: 50px;
+}
+.heading span {
+    font-size: 45px;
+}
+.resume-box:hover .resume {
+    background-size: cover;
+}
+.resume-box .resume p {
+    max-width: 90%;
+}
+.works-list li .btn {
+	font-size: 14px;
+    padding: 12px 12px;
+}
+.question-section h2 {
+    font-size: 30px;
+}
+.question-section h1 {
+    font-size: 30px;
+}
+.question-section .btn {
+    font-size: 18px;
+    padding: 15px 20px;
+}
+.social a ul li i {
+    font-size: 35px;
+}
+.social a ul {
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+.about-me-section {
+    padding-bottom: : 0;
+}
+}
+@media (max-width: 767px) {
+.navbar-light .navbar-nav .nav-link {
+    padding: 15px 10px;
+}
+.social-link{
+	display: flex;
+	top: auto;
+	right: auto;
+	transform: translateY(0);
+	-webkit-transform: translateY(0);
+	-moz-transform: translateY(0);
+	bottom: 25px;
+	/*bottom: 85px;*/
+	width: 100%;
+	justify-content: center;
+}
+.social-link li{
+	margin: 8px;
+}
+.social-link li span {
+    display: inline-block;
+    transform: rotate(0deg) translate(-50px, -25px);
+    -moz-transform: rotate(0deg) translate(0,0);
+    -webkit-transform: rotate(0deg) translate(0,0);
+}
+.hvr a {
+    font-size: 20px;
+}
+.heading h1 {
+    padding-bottom: 0;
+}
+.heading span {
+    font-size: 60px;  
+}
+.about-me-section p {
+    font-size: 16px;
+}
+.question-section h2 {
+    font-size: 22px;
+}
+.question-section h1 {
+    font-size: 20px;
+}
+.question-section .btn {
+    font-size: 18px;
+    padding: 15px 20px;
+}
+/*.works-list li .btn {
+	font-size: 14px;
+    padding: 12px 12px;
+}*/
+.works-section {
+    padding-bottom: 0;
+}
+.social a ul {
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+.social a ul li span {
+    font-size: 18px;
+}
+}
+	
+@media (max-width: 575px) {
+	.navbar-nav {
+    -ms-flex-direction: column;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: center;
+    background-color: #0c121299;
+}
+.navbar-light .navbar-nav .nav-link {
+    padding: 15px 10px;
+    display: inline-block;
+}
+.banner-content h2 {
+    font-size: 35px;
+}
+.banner-content p {
+    font-size: 15px;
+}
+header .row{
+	min-height: 90vh;
+}
+.resume-box:hover .resume {
+    background-size: 102% 102%;
+    background-repeat: no-repeat;
+}
+.resume-box .resume p{
+    max-width: 110%;
+}
+.resume-box:hover .resume p{
+    max-width: 100%;
+    font-size: 12px;
+}
+.resume-box .resume h6 {
+    font-size: 14px;
+}
+.resume-box .resume h3 {
+    font-size: 18px;
+}
+.resume-section{
+	padding-bottom: 0;
+}
+.works-list li .btn {
+	font-size: 14px;
+    padding: 12px 24px;
+}
+.works-section {
+    padding-bottom: 0;
+}
+.question-section {
+	text-align: center;
+}
+.question-section h2 {
+    font-size: 32px;
+}
+.question-section h1 {
+    font-size: 30px;
+}
+.question-section .btn {
+    float: none;
+    margin-top: 20px;
+}
+.social a ul li span {
+    display: none;
+}
+.social a {
+    background-color: transparent;
+}
+.social a:hover {
+    color: #40afcc94;
+    background-color: transparent;
+}
+footer h4{
+	font-size: 16px;
+	/*margin-top: 20px; */
+	color: #fff;
+	margin: 0;
+}
+}
